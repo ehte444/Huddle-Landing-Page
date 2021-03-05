@@ -23,9 +23,10 @@ body{
 }
 
 .container{
-  height: 100vh;
+  height: 100%;
+  max-width: 1050px;
   padding: 20px;
-  margin: 15px 40px 0 40px;
+  margin: 15px auto;
 }
 
 
@@ -92,7 +93,8 @@ section.mid .content button:hover{
 /* Socials */
 
 .footer {
-  margin-top: 10px;  
+  margin-top: 10px; 
+  margin-bottom: 15px 
 }
 
 .footer .socials-container{
@@ -127,7 +129,7 @@ section.mid .content button:hover{
   left: 0;
   overflow: hidden;
   z-index: -1;
-  width: 1028px;
+  max-width: 1028px;
 }
 
 .graphic img{
